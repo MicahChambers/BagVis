@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import DeckGL, {
   COORDINATE_SYSTEM,
   PointCloudLayer,
@@ -8,7 +7,7 @@ import DeckGL, {
 } from 'deck.gl';
 
 import loadPLY from './utils/ply-loader';
-import Slider, {Range} from 'rc-slider';
+import Slider from 'rc-slider';
 import Tooltip from 'rc-tooltip';
 import SplitterLayout from 'react-splitter-layout';
 
